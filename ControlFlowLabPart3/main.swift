@@ -175,6 +175,18 @@ print("***PROBLEM 3.4 : FINISHING THE FITNESS APP")
 var currentHR = 90
 var targetHR = 100
 let isInTarget = targetHR
+let isBelowTarget = currentHR < targetHR
+let isAboveTarget = currentHR > targetHR
+if (currentHR == targetHR) {
+    print("You're right on track!")
+}
+else if (currentHR < targetHR) {
+    print("You're doing great, but try to push it a bit!")
+}
+else {
+    print("You're on fire! Slow it down just a bit.")
+}
+
 
 
 //Once you complete the coding, test and run the code with various values for currentHR to see if all the coding works. If all the coding works, check your work and see if it shows in the console. Then you are done! Push it up to GitHub.
